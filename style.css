@@ -1,0 +1,41 @@
+body{
+    background-size: 1400px 650px;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note{
+    font-size: 15px;
+    color: black;
+
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img, .div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed, #volume{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+        margin-top: 10px;
+}
+@keyframes example{
+    from {box-shadow:1px 1px 38px  rgb(0, 247, 255);}
+     to  {box-shadow: 1px 1px 38px #39ff14;}
+   
+  }
+  
